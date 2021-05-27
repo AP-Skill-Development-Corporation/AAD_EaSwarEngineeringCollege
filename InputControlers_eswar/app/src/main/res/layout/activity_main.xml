@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/linear1"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:src="@drawable/wall1"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:onClick="image"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg1">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb1"
+            android:buttonTint="#C63D11"
+            android:text="Male"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb2"
+            android:buttonTint="#C63D11"
+            android:text="FeMale"/>
+
+    </RadioGroup>
+    <!--A Radio Group is  used to group together  one or more radio
+    buttons.
+    Radio Button  has two states either checked or unchecked
+    Check Box:  You should use check box when presenting  users with
+    a group of  selectable options that are not mutually
+    exclusive.-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Programming language"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:buttonTint="#C63D11"
+        android:layout_marginTop="20sp"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ch1"
+        android:text="C,C++"
+        android:buttonTint="#C63D11"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ch2"
+        android:text="Java"
+        android:buttonTint="#C63D11"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ch3"
+        android:text="Android"
+        android:buttonTint="#C63D11"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="submit"
+        android:text="Submit"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spi1"/>
+    <!--Spinner is a drop down list that allows users to select
+     one value from a set.-->
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch1"
+        android:layout_gravity="center" />
+
+
+</LinearLayout>
+</ScrollView>

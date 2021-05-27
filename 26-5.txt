@@ -1,0 +1,37 @@
+Constraint layout: is a viewgroup which allows you
+to position and size widgets in a flexible way.
+Frame Layout :  is design  tp block out an area on
+the screen to display a single item.
+
+Table Layout:
+ going to be  arranged groups of views into rows and 
+coloumns.
+
+Relative layout :
+ is a Viewgroup  that displays child views on
+relative positions.
+
+Linear layout:
+  that aligns all children  in a single direction
+vertically or horizontally
+youcan specify the layout direction with the 
+android:orientation attribute.
+Match Parent: the component want to display as big as 
+ its parent and fill in the remaining spaces.
+
+WrapContent: The component just want to  display
+ big enough  to enclose the content only
+https://docs.google.com/forms/d/e/1FAIpQLSfKkkirUqS3efiRUWWU7yVd6MxZ7AaNVu7r8yqwNpJXq-udCw/viewform?usp=sf_link
+https://github.com/AP-Skill-Development-Corporation
+
+
+
+
+
+
+
+
+
+
+
+

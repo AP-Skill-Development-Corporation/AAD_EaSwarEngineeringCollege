@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4BC14"
+
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_gravity="center"
+        android:src="@drawable/img12"
+        android:layout_marginTop="30sp"/>
+    <!--Image View  is used to display an image
+    gravity : specify the positions
+    margin: create space  outside the view border-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Krishna"
+        android:textSize="34sp"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        android:textColor="#E10D55"
+        android:textStyle="bold"/>
+    <!--SP :Scale Independent Pixel
+    Dp : Density Scale Independent Pixel-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Mail "
+        android:textSize="34sp"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        android:textColor="#E10D55"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Phone Num"
+        android:textSize="34sp"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        android:textColor="#E10D55"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="College Name"
+        android:textSize="34sp"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        android:textColor="#E10D55"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Branch"
+        android:textSize="34sp"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        android:textColor="#E10D55"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textSize="34sp"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        android:textColor="#E10D55"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

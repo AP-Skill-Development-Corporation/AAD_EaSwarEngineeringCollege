@@ -1,8 +1,10 @@
 package eswar.edu.optionsmenu_eswar;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -42,6 +44,28 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, "You Selected Settings", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.item3:
+                /*AlertDialogbox is a window that appears on top
+                * of  the display interrupting the  flow of activity
+                * Dialog class to show a standard dialog for an alert.*/
+                AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                builder.setTitle("Alertbox");
+                builder.setIcon(R.drawable.electric_bike);
+                builder.setMessage("Are you sure exit this app");
+                builder.setCancelable(false);
+                builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                       finish();
+                    }
+                });
+                builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        Toast.makeText(MainActivity.this, "You Clicked on No", Toast.LENGTH_SHORT).show();
+                    }
+                });
+                AlertDialog dialog = builder.create();
+                dialog.show();
                 Toast.makeText(this, "You Selected AlertDialog Box", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.item4:

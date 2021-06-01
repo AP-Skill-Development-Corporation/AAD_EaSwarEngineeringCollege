@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/recycler1"
+       />
+    <!--Recyclerview is a advanced and flexible listView and grid view
+     It is a scrollable container used for  displaying large amount of
+      data sets.
+      that can be  scrolled very effeciently by maintainig  a limited number of
+      views
+      Recyclerview introduced in materialdesign  in API level21
+      Recyclerview to implement the horizontal vertical and expandable list.
+      -->
+
+</LinearLayout>
